@@ -102,6 +102,8 @@ namespace AutomationOfPaperworkForPractice
                 i++;
             }
 
+            FormationOfDocuments.FormatDocumentStudents(massPathToFilePattern);
+
         }
 
         private static void CreateOpenFileWordDialog()
